@@ -13,7 +13,7 @@ install dependencies:
 pip install -r "requirements.txt"
 
 create .env file:
-'''
+```
 DEBUG=True
 SECRET_KEY=change-this-key
 ALLOWED_HOSTS=__REPLACE_WITH_YOUR_DOMAIN__
@@ -23,4 +23,4 @@ DB_USER=replace-with-your-db-user
 DB_PASSWORD=replace-with-your-db-password
 DB_HOST=replace-with-your-db-host
 DB_PORT=replace-with-your-db-port
-'''
+```
