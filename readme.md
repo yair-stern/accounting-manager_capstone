@@ -1,18 +1,19 @@
 # Accounting Manager - Capstone
-### Full Stuck Python, John Bryce
+### Full Stack Python, John Bryce
 
 ## using detail:
 install & create virtual environment:
-pip install virtualenv env
+pip install virtualenv
 python -m virtualenv env
 
-active env
+activate env
 env\Scripts\activate
 
-install all requirements:
+install dependencies:
 pip install -r "requirements.txt"
 
 create .env file:
+'''
 DEBUG=True
 SECRET_KEY=change-this-key
 ALLOWED_HOSTS=__REPLACE_WITH_YOUR_DOMAIN__
@@ -22,3 +23,4 @@ DB_USER=replace-with-your-db-user
 DB_PASSWORD=replace-with-your-db-password
 DB_HOST=replace-with-your-db-host
 DB_PORT=replace-with-your-db-port
+'''
